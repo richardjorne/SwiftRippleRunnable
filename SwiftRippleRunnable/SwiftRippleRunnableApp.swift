@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
 @main
 struct SwiftRippleRunnableApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RippleExamplePreviewProvider()
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }
